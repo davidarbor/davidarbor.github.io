@@ -20,11 +20,11 @@ function displayPlants(){
     console.log("wus poppin");
 }
 function displayBirds(){
-
+    console.log("wus poppin b");
 }
 function displayMammals(){
-
+    console.log("wus poppin boo");
 }
 function displayFungi(){
-
+    console.log("wus poppin blood");
 }
