@@ -1,14 +1,15 @@
 function displayArea(){
-   if(document.getElementById("selectBox").value == 1){
+    var selectValue=document.getElementById("selectBox").value;
+   if(selectValue == 1){
         displayPlants();
    }
-    if(document.getElementById("selectBox").value == 2){
+    if(selectValue == 2){
         displayBirds();
     }
-    if(document.getElementById("selectBox").value == 3){
+    if(selectValue == 3){
         displayMammals();
     }
-    if(document.getElementById("selectBox").value == 4){
+    if(selectValue == 4){
         displayFungi();
     }
 
@@ -16,7 +17,7 @@ function displayArea(){
 }
 
 function displayPlants(){
-
+    console.log("wus poppin");
 }
 function displayBirds(){
 
