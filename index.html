@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="Paul.js"></script>
     <script src="david.js"></script>
     <script src="sophie.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
     <meta charset="UTF-8">
     <title>Bio in the Bay</title>
 </head>
 <body>
-<div id="contentformammals">Mammals are going extinct. We must save them.</div>
-<div id="contentforbirds">Birds are beautiful. But if humans keep fucking up the planet, the birds will all go kapoot.</div>
-<div id="contentforfungi">Shrooms fuck you up.</div>
-<div id="contentforplants">Plants though</div>
-<select onchange= "displayMap()"id="selectBox">
+<div data-role="page" id="page1">
+    <div data-role="header" id="pageHeader">
+        <div id="contentformammals">Mammals are going extinct. We must save them.</div>
+        <div id="contentforbirds">Birds are beautiful. But if humans keep fucking up the planet, the birds will all go kapoot.</div>
+        <div id="contentforfungi">Shrooms fuck you up.</div>
+        <div id="contentforplants">Plants though</div>
+    </div>
+</div>
+
+<select onchange="displayMap()" id="selectBox">
     <option value="1">Plants</option>
     <option value="2">Birds</option>
     <option value="3">Mammals</option>

@@ -1,8 +1,15 @@
+$(document).ready(function(){
+    $('#contentformammals').hide();
+    $('#contentforbirds').hide();
+    $('#contentforplants').hide();
+    $('#contentforfungi').hide();
+});
+
 function displayArea(){
     var selectValue=document.getElementById("selectBox").value;
-   if(selectValue == 1){
+    if(selectValue == 1){
         displayPlants();
-   }
+    }
     if(selectValue == 2){
         displayBirds();
     }
@@ -18,15 +25,19 @@ function displayArea(){
 
 function displayPlants(){
     console.log("wus poppin");
+    $('#contentforplants').show();
 }
 function displayBirds(){
     console.log("wus poppin b");
+    $('#contentforbirds').show();
 }
 function displayMammals(){
     console.log("wus poppin boo");
+    $('#contentformammals').show();
 }
 function displayFungi(){
     console.log("wus poppin blood");
+    $('#contentforfungi').show();
 }
 
 function displayMap(area){
@@ -42,4 +53,5 @@ function displayMap(area){
 
         case "Area 4":
             return "<img src='img/Aries.jpg'>";
+    }
 }
