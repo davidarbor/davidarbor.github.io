@@ -24,28 +24,24 @@ function displayArea(){
 }
 
 function displayPlants(){
-    console.log("wus poppin");
     $('#contentformammals').hide();
     $('#contentforbirds').hide();
     $('#contentforfungi').hide();
     $('#contentforplants').show();
 }
 function displayBirds(){
-    console.log("wus poppin b");
     $('#contentformammals').hide();
     $('#contentforplants').hide();
     $('#contentforfungi').hide();
     $('#contentforbirds').show();
 }
 function displayMammals(){
-    console.log("wus poppin boo");
     $('#contentforbirds').hide();
     $('#contentforplants').hide();
     $('#contentforfungi').hide();
     $('#contentformammals').show();
 }
 function displayFungi(){
-    console.log("wus poppin blood");
     $('#contentformammals').hide();
     $('#contentforbirds').hide();
     $('#contentforplants').hide();
