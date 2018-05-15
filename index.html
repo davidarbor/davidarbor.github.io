@@ -18,15 +18,15 @@
         <div id="contentforbirds">Birds are beautiful. But if humans keep fucking up the planet, the birds will all go kapoot.</div>
         <div id="contentforfungi">Shrooms fuck you up.</div>
         <div id="contentforplants">Plants though</div>
+        <select onchange="displayMap()" id="selectBox">
+            <option value="1">Plants</option>
+            <option value="2">Birds</option>
+            <option value="3">Mammals</option>
+            <option value="4">Fungi</option>
+        </select>
+        <button id="myButton" onclick="displayArea()">Go!</button>
     </div>
 </div>
 
-<select onchange="displayMap()" id="selectBox">
-    <option value="1">Plants</option>
-    <option value="2">Birds</option>
-    <option value="3">Mammals</option>
-    <option value="4">Fungi</option>
-</select>
-<button id="myButton" onclick="displayArea()">Go!</button>
 </body>
 </html>
