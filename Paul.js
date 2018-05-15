@@ -28,3 +28,18 @@ function displayMammals(){
 function displayFungi(){
     console.log("wus poppin blood");
 }
+
+function displayMap(area){
+    switch(area){
+        case "Area 1":
+            return "<img src='img/Cap.jpg'>";
+
+        case "Area 2":
+            return "<img src='img/Aquarius.jpg'>";
+
+        case "Area 3":
+            return "<img src='img/Pisces.jpg'>";
+
+        case "Area 4":
+            return "<img src='img/Aries.jpg'>";
+}
