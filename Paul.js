@@ -48,18 +48,20 @@ function displayFungi(){
     $('#contentforfungi').show();
 }
 
-function displayMap(area){
-    switch(area){
-        case "Area 1":
-            return "<img src='img/Cap.jpg'>";
+function displayMap(){
+    var group = document.getElementById("selectBox").value;
+    console.log(group)
+    switch(group){
+        case "1":
+            return "<img src='img/Tilden.png'>";
 
-        case "Area 2":
+        case "2":
             return "<img src='img/Aquarius.jpg'>";
 
-        case "Area 3":
+        case "3":
             return "<img src='img/Pisces.jpg'>";
 
-        case "Area 4":
+        case "4":
             return "<img src='img/Aries.jpg'>";
     }
 }
