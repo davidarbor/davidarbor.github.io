@@ -3,6 +3,8 @@ $(document).ready(function(){
     $('#contentforbirds').hide();
     $('#contentforplants').hide();
     $('#contentforfungi').hide();
+    $('#tilden').html("<img width='500' height='500' src='img/Tilden.png'>");
+
 });
 
 function displayArea(){
@@ -49,6 +51,7 @@ function displayFungi(){
 }
 
 function displayMap(area){
+    $('#myButton').hide();
     switch(area){
         case "Area 1":
             return "<img src='img/Cap.jpg'>";
