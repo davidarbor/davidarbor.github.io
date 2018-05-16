@@ -51,7 +51,7 @@ function displayFungi(){
 }
 
 function displayMap(area){
-    $('#myButton').hide();
+    $('#myButton').hide()
     switch(area){
         case "Area 1":
             return "<img src='img/Cap.jpg'>";
