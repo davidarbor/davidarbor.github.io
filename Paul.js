@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('#contentforplants').hide();
     $('#contentforfungi').hide();
     $('#tilden').html("<img width='500' height='500' src='img/Tilden.png'>");
+    $('#tilden').hide();
 
 });
 
@@ -50,19 +51,21 @@ function displayFungi(){
     $('#contentforfungi').show();
 }
 
-function displayMap(area){
-    $('#myButton').hide();
+function displayMap(){
+    $("body").pagecontainer("change", "#page2", {});
+    var area=document.getElementById("selectBox").value;
     switch(area){
-        case "Area 1":
-            return "<img src='img/Cap.jpg'>";
+        case "1":
+            $('#tilden').show();
+            break;
 
-        case "Area 2":
+        case "2":
             return "<img src='img/Aquarius.jpg'>";
 
-        case "Area 3":
+        case "3":
             return "<img src='img/Pisces.jpg'>";
 
-        case "Area 4":
+        case "4":
             return "<img src='img/Aries.jpg'>";
     }
 }
