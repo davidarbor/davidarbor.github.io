@@ -32,34 +32,42 @@ function displayArea(){
 
 }
 
-function displayPlants(){
-    $('#contentformammals').hide();
-    $('#contentforbirds').hide();
-    $('#contentforfungi').hide();
-    $('#contentforplants').show();
-}
-function displayBirds(){
-    $('#contentformammals').hide();
-    $('#contentforplants').hide();
-    $('#contentforfungi').hide();
-    $('#contentforbirds').show();
-}
-function displayMammals(){
-    $('#contentforbirds').hide();
-    $('#contentforplants').hide();
-    $('#contentforfungi').hide();
-    $('#contentformammals').show();
-}
-function displayFungi(){
-    $('#contentformammals').hide();
-    $('#contentforbirds').hide();
-    $('#contentforplants').hide();
-    $('#contentforfungi').show();
-}
-
-function displayMap(){
+function displayMapOne(){
     $("body").pagecontainer("change", "#page2", {});
-    var area=document.getElementById("selectBox").value;
+    var area=document.getElementById("selectBox1").value;
+    switch(area){
+        case "1":
+            $('#tilden').show();
+            $('#redwood').hide();
+            $('#wildcat').hide();
+            $('#claremont').hide();
+            break;
+
+        case "2":
+            $('#tilden').hide();
+            $('#redwood').show();
+            $('#wildcat').hide();
+            $('#claremont').hide();
+            break;
+
+        case "3":
+            $('#tilden').hide();
+            $('#redwood').hide();
+            $('#wildcat').show();
+            $('#claremont').hide();
+            break;
+
+        case "4":
+            $('#tilden').hide();
+            $('#redwood').hide();
+            $('#wildcat').hide();
+            $('#claremont').show();
+            break;
+    }
+}
+function displayMapTwo(){
+    $("body").pagecontainer("change", "#page2", {});
+    var area=document.getElementById("selectBox2").value;
     switch(area){
         case "1":
             $('#tilden').show();

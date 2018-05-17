@@ -16,11 +16,7 @@
     <div data-role="header" id="pageHeader1">
         <h1>Bio in the Bay</h1>
     </div>
-    <div id="contentformammals">Mammals are going extinct. We must save them.</div>
-    <div id="contentforbirds">Birds are beautiful. But if humans keep fucking up the planet, the birds will all go kapoot.</div>
-    <div id="contentforfungi">Shrooms fuck you up.</div>
-    <div id="contentforplants">Plants though</div>
-    <select onchange="displayMap()" id="selectBox">
+    <select onchange="displayMapOne()" id="selectBox1">
         <option value="0">Select an option...</option>
         <option value="1">Tilden Park</option>
         <option value="2">Redwood Park</option>
@@ -33,6 +29,13 @@
     <div data-role="header" id="pageHeader2">
         <h1>Bio in the Bay</h1>
     </div>
+    <select onchange="displayMapTwo()" id="selectBox2">
+        <option value="0">Select an option...</option>
+        <option value="1">Tilden Park</option>
+        <option value="2">Redwood Park</option>
+        <option value="3">Wildcat Park</option>
+        <option value="4">Claremont Canyon Park</option>
+    </select>
     <div id="tilden"></div>
     <div id="redwood"></div>
     <div id="wildcat"></div>
