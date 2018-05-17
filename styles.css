@@ -7,35 +7,41 @@
     background: forestgreen;
     color: white;
 }
+#page1{
+    background: lightgreen;
+}
+#page2{
+    color: lightgreen;
+}
 #pageHeader1{
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: "Times New Roman", monospace;
-    background: lightblue;
-    color: darkred;
+    background: forestgreen;
+    color: darkblue;
 }
 #pageHeader2{
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: "Times New Roman", monospace;
-    background: lightblue;
-    color: darkred;
+    background: forestgreen;
+    color: darkblue;
 }
 #tilden{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 5%;
 }
 #redwood{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 5%;
 }
 #wildcat{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 5%;
 }
 #claremont{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 25%;
+    left: 5%;
 }

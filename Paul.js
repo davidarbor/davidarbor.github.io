@@ -3,10 +3,10 @@ $(document).ready(function(){
     $('#contentforbirds').hide();
     $('#contentforplants').hide();
     $('#contentforfungi').hide();
-    $('#tilden').html("<img width='500' height='500' src='img/Tilden%20Park.png'>");
-    $('#redwood').html("<img width='500' height='500' src='img/Redwood%20Park.png'>");
-    $('#wildcat').html("<img width='500' height='500' src='img/Wildcat%20Park.png'>");
-    $('#claremont').html("<img width='500' height='500' src='img/Claremont%20Canyon%20Park.png'>");
+    $('#tilden').html("<img width='400' height='400' src='img/Tilden%20Park.png'>");
+    $('#redwood').html("<img width='400' height='400' src='img/Redwood%20Park.png'>");
+    $('#wildcat').html("<img width='400' height='400' src='img/Wildcat%20Park.png'>");
+    $('#claremont').html("<img width='400' height='400' src='img/Claremont%20Canyon%20Park.png'>");
     $('#tilden').hide();
     $('#redwood').hide();
     $('#wildcat').hide();
@@ -66,7 +66,6 @@ function displayMapOne(){
     }
 }
 function displayMapTwo(){
-    $("body").pagecontainer("change", "#page2", {});
     var area=document.getElementById("selectBox2").value;
     switch(area){
         case "1":
