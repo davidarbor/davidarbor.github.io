@@ -7,10 +7,6 @@ $(document).ready(function(){
     $('#redwood').hide();
     $('#wildcat').hide();
     $('#claremont').hide();
-    $('#tildenInfo').hide();
-    $('#redwoodInfo').hide();
-    $('#wildcatInfo').hide();
-    $('#claremontInfo').hide();
 
 });
 
@@ -41,10 +37,6 @@ function displayMapOne(){
             $('#redwood').hide();
             $('#wildcat').hide();
             $('#claremont').hide();
-            $('#tildenInfo').show();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').hide();
-            $('#claremontInfo').hide();
             break;
 
         case "2":
@@ -52,10 +44,6 @@ function displayMapOne(){
             $('#redwood').show();
             $('#wildcat').hide();
             $('#claremont').hide();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').show();
-            $('#wildcatInfo').hide();
-            $('#claremontInfo').hide();
             break;
 
         case "3":
@@ -63,10 +51,6 @@ function displayMapOne(){
             $('#redwood').hide();
             $('#wildcat').show();
             $('#claremont').hide();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').show();
-            $('#claremontInfo').hide();
             break;
 
         case "4":
@@ -74,10 +58,6 @@ function displayMapOne(){
             $('#redwood').hide();
             $('#wildcat').hide();
             $('#claremont').show();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').show();
-            $('#claremontInfo').hide();
             break;
     }
 }
@@ -89,10 +69,6 @@ function displayMapTwo(){
             $('#redwood').hide();
             $('#wildcat').hide();
             $('#claremont').hide();
-            $('#tildenInfo').show();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').hide();
-            $('#claremontInfo').hide();
             break;
 
         case "2":
@@ -100,10 +76,6 @@ function displayMapTwo(){
             $('#redwood').show();
             $('#wildcat').hide();
             $('#claremont').hide();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').show();
-            $('#wildcatInfo').hide();
-            $('#claremontInfo').hide();
             break;
 
         case "3":
@@ -111,10 +83,6 @@ function displayMapTwo(){
             $('#redwood').hide();
             $('#wildcat').show();
             $('#claremont').hide();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').show();
-            $('#claremontInfo').hide();
             break;
 
         case "4":
@@ -122,10 +90,6 @@ function displayMapTwo(){
             $('#redwood').hide();
             $('#wildcat').hide();
             $('#claremont').show();
-            $('#tildenInfo').hide();
-            $('#redwoodInfo').hide();
-            $('#wildcatInfo').show();
-            $('#claremontInfo').hide();
             break;
     }
 }
