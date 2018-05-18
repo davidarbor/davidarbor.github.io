@@ -45,3 +45,27 @@
     top: 25%;
     left: 5%;
 }
+
+#claremontInfo{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+#redwoodInfo{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+#tildenInfo{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+#wildcatInfo{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
