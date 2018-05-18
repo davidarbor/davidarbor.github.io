@@ -1,8 +1,4 @@
 $(document).ready(function(){
-    $('#contentformammals').hide();
-    $('#contentforbirds').hide();
-    $('#contentforplants').hide();
-    $('#contentforfungi').hide();
     $('#tilden').html("<img width='400' height='400' src='img/Tilden%20Park.png'>");
     $('#redwood').html("<img width='400' height='400' src='img/Redwood%20Park.png'>");
     $('#wildcat').html("<img width='400' height='400' src='img/Wildcat%20Park.png'>");
