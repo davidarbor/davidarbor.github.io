@@ -11,7 +11,6 @@ $(document).ready(function(){
     $('#redwoodInfo').hide();
     $('#wildcatInfo').hide();
     $('#claremontInfo').hide();
-
 });
 
 function displayArea(){
