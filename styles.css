@@ -42,22 +42,30 @@
 #tildenInfo{
     position: absolute;
     top: 25%;
-    left: 38%;
+    left: 37.25%;
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
 }
 #redwoodInfo{
     position: absolute;
     top: 25%;
-    left: 38%;
+    left: 37.25%;
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
 }
 #wildcatInfo{
     position: absolute;
     top: 25%;
-    left: 38%;
+    left: 37.25%;
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
 }
 #claremontInfo{
     position: absolute;
     top: 25%;
-    left: 38%;
+    left: 37.25%;
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
 }
 
 #fungiButton{
@@ -67,8 +75,8 @@
     border-color: black;
     color: white;
     position: absolute;
-    top: 62%;
-    left: 55%;
+    top: 55%;
+    left: 45%;
 }
 #plantsButton{
     height: 100px;
@@ -77,8 +85,8 @@
     border-color: black;
     color: white;
     position: absolute;
-    top: 62%;
-    left: 72%;
+    top: 55%;
+    left: 70%;
 }
 #birdsButton{
     height: 100px;
@@ -88,7 +96,7 @@
     color: white;
     position: absolute;
     top: 75%;
-    left: 55%;
+    left: 45%;
 }
 #mammalsButton{
     height: 100px;
@@ -98,5 +106,5 @@
     color: white;
     position: absolute;
     top: 75%;
-    left: 72%;
+    left: 70%;
 }
