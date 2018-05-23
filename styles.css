@@ -4,6 +4,9 @@
 #page2{
     background: lightgreen;
 }
+#page3{
+    background: lightgreen;
+}
 
 #pageHeader1{
     font-size: 30pt;
@@ -17,26 +20,36 @@
     background: forestgreen;
     color: darkblue;
 }
+#pageHeader3{
+    font-size: 30pt;
+    font-family: "Times New Roman", monospace;
+    background: forestgreen;
+    color: darkblue;
+}
 
 #tilden{
     position: absolute;
     top: 25%;
     left: 5%;
+    border: 2px solid black;
 }
 #redwood{
     position: absolute;
     top: 25%;
     left: 5%;
+    border: 2px solid black;
 }
 #wildcat{
     position: absolute;
     top: 25%;
     left: 5%;
+    border: 2px solid black;
 }
 #claremont{
     position: absolute;
     top: 25%;
     left: 5%;
+    border: 2px solid black;
 }
 
 #tildenInfo{

@@ -110,3 +110,16 @@ function displayMapTwo(){
             break;
     }
 }
+
+function fungi(){
+    $("body").pagecontainer("change", "#page3", {});
+}
+function plants(){
+    $("body").pagecontainer("change", "#page3", {});
+}
+function birds(){
+    $("body").pagecontainer("change", "#page3", {});
+}
+function mammals(){
+    $("body").pagecontainer("change", "#page3", {});
+}
