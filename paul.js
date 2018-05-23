@@ -27,7 +27,6 @@ function displayMapOne(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "2":
             $('#tilden').hide();
             $('#redwood').show();
@@ -38,7 +37,6 @@ function displayMapOne(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "3":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -49,7 +47,6 @@ function displayMapOne(){
             $('#wildcatInfo').show();
             $('#claremontInfo').hide();
             break;
-
         case "4":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -75,7 +72,6 @@ function displayMapTwo(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "2":
             $('#tilden').hide();
             $('#redwood').show();
@@ -86,7 +82,6 @@ function displayMapTwo(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "3":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -97,7 +92,6 @@ function displayMapTwo(){
             $('#wildcatInfo').show();
             $('#claremontInfo').hide();
             break;
-
         case "4":
             $('#tilden').hide();
             $('#redwood').hide();
