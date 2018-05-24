@@ -11,6 +11,10 @@ $(document).ready(function(){
     $('#redwoodInfo').hide();
     $('#wildcatInfo').hide();
     $('#claremontInfo').hide();
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#mammalsPlaceholder').hide();
 });
 
 function displayMapOne(){
@@ -107,13 +111,29 @@ function displayMapTwo(){
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').show();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#mammalsPlaceholder').hide();
 }
 function plants(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').show();
+    $('#birdsPlaceholder').hide();
+    $('#mammalsPlaceholder').hide();
 }
 function birds(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').show();
+    $('#mammalsPlaceholder').hide();
 }
 function mammals(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#mammalsPlaceholder').show();
 }
