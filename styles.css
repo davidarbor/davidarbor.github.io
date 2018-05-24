@@ -81,7 +81,7 @@
     font-family: "Times New Roman", monospace;
 }
 
-#fungiButton{
+#fungiButton1{
     height: 100px;
     width: 200px;
     background: darkgreen;
@@ -91,7 +91,7 @@
     top: 60%;
     left: 45%;
 }
-#plantsButton{
+#plantsButton1{
     height: 100px;
     width: 200px;
     background: darkgreen;
@@ -101,7 +101,7 @@
     top: 60%;
     left: 70%;
 }
-#birdsButton{
+#birdsButton1{
     height: 100px;
     width: 200px;
     background: darkgreen;
@@ -111,7 +111,48 @@
     top: 75%;
     left: 45%;
 }
-#mammalsButton{
+#mammalsButton1{
+    height: 100px;
+    width: 200px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+#fungiButton2{
+    height: 100px;
+    width: 200px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+#plantsButton2{
+    height: 100px;
+    width: 200px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
+#birdsButton2{
+    height: 100px;
+    width: 200px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+#mammalsButton2{
     height: 100px;
     width: 200px;
     background: darkgreen;
