@@ -82,83 +82,83 @@
 }
 
 #fungiButton1{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 45%;
+    top: 75%;
+    left: 70%;
 }
 #plantsButton1{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 70%;
+    top: 75%;
+    left: 85%;
 }
 #birdsButton1{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 75%;
-    left: 45%;
-}
-#mammalsButton1{
-    height: 100px;
-    width: 200px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 75%;
+    top: 85%;
     left: 70%;
+}
+#animalsButton1{
+    height: 50px;
+    width: 150px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 85%;
 }
 
 #fungiButton2{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 45%;
+    top: 75%;
+    left: 70%;
 }
 #plantsButton2{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 60%;
-    left: 70%;
+    top: 75%;
+    left: 85%;
 }
 #birdsButton2{
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     background: darkgreen;
     border-color: black;
     color: white;
     position: absolute;
-    top: 75%;
-    left: 45%;
-}
-#mammalsButton2{
-    height: 100px;
-    width: 200px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 75%;
+    top: 85%;
     left: 70%;
+}
+#animalsButton2{
+    height: 50px;
+    width: 150px;
+    background: darkgreen;
+    border-color: black;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 85%;
 }
