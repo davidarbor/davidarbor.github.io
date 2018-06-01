@@ -22,7 +22,7 @@
 }
 #pageHeader3{
     font-size: 30pt;
-    font-family: "Bauhaus 93", monospace;
+    font-family: "Times New Roman", monospace;
     background: forestgreen;
     color: darkblue;
 }
@@ -57,7 +57,7 @@
     top: 25%;
     left: 37.25%;
     font-size: 17pt;
-    /*font-family: "Helvetica", monospace;*/
+    font-family: "Times New Roman", monospace;
 }
 #redwoodInfo{
     position: absolute;

@@ -11,6 +11,10 @@ $(document).ready(function(){
     $('#redwoodInfo').hide();
     $('#wildcatInfo').hide();
     $('#claremontInfo').hide();
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#animalsPlaceholder').hide();
 });
 
 function displayMapOne(){
@@ -27,7 +31,6 @@ function displayMapOne(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "2":
             $('#tilden').hide();
             $('#redwood').show();
@@ -38,7 +41,6 @@ function displayMapOne(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "3":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -49,7 +51,6 @@ function displayMapOne(){
             $('#wildcatInfo').show();
             $('#claremontInfo').hide();
             break;
-
         case "4":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -75,7 +76,6 @@ function displayMapTwo(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "2":
             $('#tilden').hide();
             $('#redwood').show();
@@ -86,7 +86,6 @@ function displayMapTwo(){
             $('#wildcatInfo').hide();
             $('#claremontInfo').hide();
             break;
-
         case "3":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -97,7 +96,6 @@ function displayMapTwo(){
             $('#wildcatInfo').show();
             $('#claremontInfo').hide();
             break;
-
         case "4":
             $('#tilden').hide();
             $('#redwood').hide();
@@ -113,13 +111,29 @@ function displayMapTwo(){
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').show();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#animalsPlaceholder').hide();
 }
 function plants(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').show();
+    $('#birdsPlaceholder').hide();
+    $('#animalsPlaceholder').hide();
 }
 function birds(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').show();
+    $('#animalsPlaceholder').hide();
 }
-function mammals(){
+function animals(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiPlaceholder').hide();
+    $('#plantsPlaceholder').hide();
+    $('#birdsPlaceholder').hide();
+    $('#animalsPlaceholder').show();
 }
