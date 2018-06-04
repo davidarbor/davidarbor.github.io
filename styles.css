@@ -1,29 +1,29 @@
 #page1{
-    background: lightgreen;
+    background: #4a806d;
 }
 #page2{
-    background: lightgreen;
+    background:  #4a806d;
 }
 #page3{
-    background: lightgreen;
+    background:  #4a806d;
 }
 
 #pageHeader1{
     font-size: 30pt;
     font-family: "Bauhaus 93", monospace, bold;
-    background: forestgreen;
+    background: #a1bfa3;
     color: darkblue;
 }
 #pageHeader2{
     font-size: 30pt;
     font-family: "Bauhaus 93", monospace;
-    background: forestgreen;
+    background: #a1bfa3;
     color: darkblue;
 }
 #pageHeader3{
     font-size: 30pt;
-    font-family: "Times New Roman", monospace;
-    background: forestgreen;
+    font-family: "Franklin Gothic Medium", monospace;
+    background: #a1bfa3;
     color: darkblue;
 }
 
@@ -57,14 +57,14 @@
     top: 25%;
     left: 37.25%;
     font-size: 17pt;
-    font-family: "Times New Roman", monospace;
+    font-family: "Gotham" , monospace;
 }
 #redwoodInfo{
     position: absolute;
     top: 25%;
     left: 37.25%;
     font-size: 17pt;
-    font-family: "Times New Roman", monospace;
+    font-family: "Bauhaus 93", monospace;
 }
 #wildcatInfo{
     position: absolute;
