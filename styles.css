@@ -5,6 +5,9 @@
     background: lightgreen;
 }
 #page3{
+     background: lightgreen;
+}
+#page4{
     background: lightgreen;
 }
 
@@ -25,6 +28,25 @@
     font-family: "Bauhaus 93", monospace, bold;
     background: forestgreen;
     color: darkblue;
+}
+#pageHeader4{
+    font-size: 30pt;
+    font-family: "Bauhaus 93", monospace, bold;
+    background: forestgreen;
+    color: darkblue;
+}
+
+#about1{
+    position: absolute;
+    left: 15%;
+}
+#about2{
+    position: absolute;
+    left: 15%;
+}
+#about3{
+    position: absolute;
+    left: 15%;
 }
 
 #tilden{
