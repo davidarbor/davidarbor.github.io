@@ -7,9 +7,6 @@
 #page3{
      background: lightgreen;
 }
-#page4{
-    background: lightgreen;
-}
 
 #pageHeader1{
     font-size: 30pt;
@@ -28,25 +25,6 @@
     font-family: "Bauhaus 93", monospace, bold;
     background: forestgreen;
     color: darkblue;
-}
-#pageHeader4{
-    font-size: 30pt;
-    font-family: "Bauhaus 93", monospace, bold;
-    background: forestgreen;
-    color: darkblue;
-}
-
-#about1{
-    position: absolute;
-    left: 15%;
-}
-#about2{
-    position: absolute;
-    left: 15%;
-}
-#about3{
-    position: absolute;
-    left: 15%;
 }
 
 #tilden{
@@ -103,7 +81,7 @@
     font-family: "Times New Roman", monospace;
 }
 
-#fungiButton1{
+#fungiButton{
     height: 50px;
     width: 150px;
     background: darkgreen;
@@ -113,7 +91,7 @@
     top: 75%;
     left: 70%;
 }
-#plantsButton1{
+#plantsButton{
     height: 50px;
     width: 150px;
     background: darkgreen;
@@ -123,7 +101,7 @@
     top: 75%;
     left: 85%;
 }
-#birdsButton1{
+#birdsButton{
     height: 50px;
     width: 150px;
     background: darkgreen;
@@ -133,7 +111,7 @@
     top: 85%;
     left: 70%;
 }
-#animalsButton1{
+#animalsButton{
     height: 50px;
     width: 150px;
     background: darkgreen;
@@ -144,43 +122,6 @@
     left: 85%;
 }
 
-#fungiButton2{
-    height: 50px;
-    width: 150px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 75%;
-    left: 70%;
-}
-#plantsButton2{
-    height: 50px;
-    width: 150px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 75%;
-    left: 85%;
-}
-#birdsButton2{
-    height: 50px;
-    width: 150px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 85%;
-    left: 70%;
-}
-#animalsButton2{
-    height: 50px;
-    width: 150px;
-    background: darkgreen;
-    border-color: black;
-    color: white;
-    position: absolute;
-    top: 85%;
-    left: 85%;
+#displayTable{
+    border: 15px;
 }

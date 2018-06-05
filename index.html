@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="tilden.js"></script>
+    <script src="wildcat.js"></script>
+    <script src="redwood.js"></script>
+    <script src="claremont.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="paul.js"></script>
     <link rel="stylesheet" href="styles.css"/>
-
     <meta charset="UTF-8">
     <title>Bio in the Bay</title>
 </head>
@@ -37,29 +40,34 @@
     <div id="tilden"></div>
     <div id="redwood"></div>
     <div id="wildcat"></div>
-
     <div id="claremont"></div>
     <div id="tildenInfo">One of the District's three oldest parks, Tilden has been called the jewel of the system, and its recreational activities have become a happy tradition for generations of East Bay youngsters. From a carousel ride and a picnic to a swim at Lake Anza and a stroll through the Botanic Garden, Tilden has variety to delight everyone. Yet there are plenty of quiet places in Tilden's 2,079 acres to shelter the wildlife and preserve natural beauty.</div>
     <div id="redwoodInfo">A hidden redwood forest lies off Redwood Road just a few miles over the ridge from downtown Oakland. The forest's peaceful groves give little evidence of the park's bustling past – in the mid-1800s the area was the scene of extensive logging to supply building materials for the San Francisco Bay Area. The logging era has long since passed, and a stately forest of 150-foot coast redwoods (Sequoia sempervirens) has replaced those cut down.</div>
     <div id="wildcatInfo">Wildcat Canyon Regional Park encompasses 2,427 acres along  the Wildcat Creek watershed and the surrounding hills and ridges. The park extends from the Tilden Nature Area above the Berkeley hills in the south to historic Alvarado Park at the north end in Richmond. It includes a significant portion of the paved Nimitz Way extending from Inspiration point in Tilden Regional Park. Easy access from the busy cities of the East Bay makes Wildcat Canyon a popular place for hikers, mountain bikers, equestrians, and those simply looking for a quiet place to spend an afternoon. Alvarado Park, with its historic stonework, provides picnic areas for large and small groups, a wonderful play area for children, and access to Wildcat Creek, all just steps from the busy streets of Richmond.</div>
     <div id="claremontInfo">Claremont Canyon Regional Preserve is nestled in the Berkeley and Oakland hills behind the historic Claremont Hotel. This scenic, 208-acre preserve protects two parcels of land located on both sides of upper Claremont Avenue. Panoramic Ridge rises steeply to the north, and Gwin Canyon extends south. In addition to East Bay Regional Park District land holdings in Claremont Canyon, other undeveloped portions in the upper canyon are managed by the University of California and the East Bay Municipal Utility District. The City of Oakland owns Garber Park, a 13-acre oak/bay woodland south of Claremont Avenue.</div>
-    <button id="fungiButton1" onclick="fungi()">Fungi</button>
-    <button id="plantsButton1" onclick="plants()">Plants</button>
-    <button id="birdsButton1" onclick="birds()">Birds</button>
-    <button id="animalsButton1" onclick="animals()">Other animals</button>
+    <button id="fungiButton" onclick="fungi()">Fungi</button>
+    <button id="plantsButton" onclick="plants()">Plants</button>
+    <button id="birdsButton" onclick="birds()">Birds</button>
+    <button id="animalsButton" onclick="animals()">Other animals</button>
 </div>
 <div data-role="page" id="page3">
     <div data-role="header" id="pageHeader3" data-add-back-btn="true">
         <h1>Bio in the Bay</h1>
     </div>
-    <div id="fungiPlaceholder">X D</div>
-    <div id="plantsPlaceholder">xd</div>
-    <div id="birdsPlaceholder">XD</div>
-    <div id="animalsPlaceholder">eks dee</div>
-    <button id="fungiButton2" onclick="fungi()">Fungi</button>
-    <button id="plantsButton2" onclick="plants()">Plants</button>
-    <button id="birdsButton2" onclick="birds()">Birds</button>
-    <button id="animalsButton2" onclick="animals()">Other animals</button>
+    <table id="displayTable">
+        <tr>
+            <th width="120px">Kingdom</th>
+            <th width="120px">Phylum</th>
+            <th width="120px">Class</th>
+            <th width="120px">Order</th>
+            <th width="120px">Family</th>
+            <th width="120px">Genus</th>
+            <th width="120px">Species</th>
+            <th width="120px">Common name</th>
+            <th width="120px">First observation</th>
+            <th width="120px">Last observation</th>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
