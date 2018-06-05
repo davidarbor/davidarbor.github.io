@@ -16,7 +16,7 @@ $(document).ready(function(){
     $('#birdsPlaceholder').hide();
     $('#animalsPlaceholder').hide();
 });
-eks dee
+
 function displayMapOne(){
     $("body").pagecontainer("change", "#page2", {});
     var area=document.getElementById("selectBox1").value;
