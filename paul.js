@@ -111,6 +111,7 @@ function displayMapTwo(){
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
+    displayFungi();
     $('#fungiPlaceholder').show();
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').hide();
@@ -136,4 +137,21 @@ function animals(){
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').hide();
     $('#animalsPlaceholder').show();
+}
+
+function displayFungi(){
+    var $table=$('#displayTable');
+    for(i=0; i<tildenFungi.length; i++){
+        var kingdom=tildenFungi[i].kingdom;
+        var phylum=tildenFungi[i].phylum;
+        var sclass=tildenFungi[i].class;
+        var order=tildenFungi[i].order;
+        var family=tildenFungi[i].family;
+        var genus=tildenFungi[i].genus;
+        var species=tildenFungi[i].taxon_name;
+        var common=tildenFungi[i].taxon_common_name;
+        var cell=('<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>');
+        var row = ('<tr class="data">' + cell + '</tr>');
+        $table.append(row);
+    }
 }
