@@ -119,6 +119,7 @@ function fungi(){
 }
 function plants(){
     $("body").pagecontainer("change", "#page3", {});
+    displayPlants();
     $('#fungiPlaceholder').hide();
     $('#plantsPlaceholder').show();
     $('#birdsPlaceholder').hide();
@@ -126,6 +127,7 @@ function plants(){
 }
 function birds(){
     $("body").pagecontainer("change", "#page3", {});
+    displayBirds();
     $('#fungiPlaceholder').hide();
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').show();
@@ -133,6 +135,7 @@ function birds(){
 }
 function animals(){
     $("body").pagecontainer("change", "#page3", {});
+    displayOther();
     $('#fungiPlaceholder').hide();
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').hide();
@@ -150,6 +153,54 @@ function displayFungi(){
         var genus=tildenFungi[i].genus;
         var species=tildenFungi[i].taxon_name;
         var common=tildenFungi[i].taxon_common_name;
+        var cell=('<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>');
+        var row = ('<tr class="data">' + cell + '</tr>');
+        $table.append(row);
+    }
+}
+function displayPlants(){
+    var $table=$('#displayTable');
+    for(i=0; i<tildenPlants.length; i++){
+        var kingdom=tildenPlants[i].kingdom;
+        var phylum=tildenPlants[i].phylum;
+        var sclass=tildenPlants[i].class;
+        var order=tildenPlants[i].order;
+        var family=tildenPlants[i].family;
+        var genus=tildenPlants[i].genus;
+        var species=tildenPlants[i].taxon_name;
+        var common=tildenPlants[i].taxon_common_name;
+        var cell=('<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>');
+        var row = ('<tr class="data">' + cell + '</tr>');
+        $table.append(row);
+    }
+}
+function displayBirds(){
+    var $table=$('#displayTable');
+    for(i=0; i<tildenBirds.length; i++){
+        var kingdom=tildenBirds[i].kingdom;
+        var phylum=tildenBirds[i].phylum;
+        var sclass=tildenBirds[i].class;
+        var order=tildenBirds[i].order;
+        var family=tildenBirds[i].family;
+        var genus=tildenBirds[i].genus;
+        var species=tildenBirds[i].taxon_name;
+        var common=tildenBirds[i].taxon_common_name;
+        var cell=('<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>');
+        var row = ('<tr class="data">' + cell + '</tr>');
+        $table.append(row);
+    }
+}
+function displayOther(){
+    var $table=$('#displayTable');
+    for(i=0; i<tildenOther.length; i++){
+        var kingdom=tildenOther[i].kingdom;
+        var phylum=tildenOther[i].phylum;
+        var sclass=tildenOther[i].class;
+        var order=tildenOther[i].order;
+        var family=tildenOther[i].family;
+        var genus=tildenOther[i].genus;
+        var species=tildenOther[i].taxon_name;
+        var common=tildenOther[i].taxon_common_name;
         var cell=('<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>');
         var row = ('<tr class="data">' + cell + '</tr>');
         $table.append(row);
