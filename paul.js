@@ -111,38 +111,6 @@ function displayMapTwo(){
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
-    displayFungi();
-    $('#fungiPlaceholder').show();
-    $('#plantsPlaceholder').hide();
-    $('#birdsPlaceholder').hide();
-    $('#animalsPlaceholder').hide();
-}
-function plants(){
-    $("body").pagecontainer("change", "#page3", {});
-    displayPlants();
-    $('#fungiPlaceholder').hide();
-    $('#plantsPlaceholder').show();
-    $('#birdsPlaceholder').hide();
-    $('#animalsPlaceholder').hide();
-}
-function birds(){
-    $("body").pagecontainer("change", "#page3", {});
-    displayBirds();
-    $('#fungiPlaceholder').hide();
-    $('#plantsPlaceholder').hide();
-    $('#birdsPlaceholder').show();
-    $('#animalsPlaceholder').hide();
-}
-function animals(){
-    $("body").pagecontainer("change", "#page3", {});
-    displayOther();
-    $('#fungiPlaceholder').hide();
-    $('#plantsPlaceholder').hide();
-    $('#birdsPlaceholder').hide();
-    $('#animalsPlaceholder').show();
-}
-
-function displayFungi(){
     var $table=$('#displayTable');
     for(i=0; i<tildenFungi.length; i++){
         var kingdom=tildenFungi[i].kingdom;
@@ -158,7 +126,8 @@ function displayFungi(){
         $table.append(row);
     }
 }
-function displayPlants(){
+function plants(){
+    $("body").pagecontainer("change", "#page3", {});
     var $table=$('#displayTable');
     for(i=0; i<tildenPlants.length; i++){
         var kingdom=tildenPlants[i].kingdom;
@@ -174,8 +143,8 @@ function displayPlants(){
         $table.append(row);
     }
 }
-function displayBirds(){
-    var $table=$('#displayTable');
+function birds(){
+    $("body").pagecontainer("change", "#page3", {});
     for(i=0; i<tildenBirds.length; i++){
         var kingdom=tildenBirds[i].kingdom;
         var phylum=tildenBirds[i].phylum;
@@ -190,7 +159,8 @@ function displayBirds(){
         $table.append(row);
     }
 }
-function displayOther(){
+function animals(){
+    $("body").pagecontainer("change", "#page3", {});
     var $table=$('#displayTable');
     for(i=0; i<tildenOther.length; i++){
         var kingdom=tildenOther[i].kingdom;
