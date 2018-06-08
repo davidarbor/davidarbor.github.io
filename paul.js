@@ -15,6 +15,11 @@ $(document).ready(function(){
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').hide();
     $('#animalsPlaceholder').hide();
+
+    fungiArray=[];
+    plantsArray=[];
+    birdsArray=[];
+    animalsArray=[];
 });
 
 function displayMapOne(){
@@ -22,6 +27,10 @@ function displayMapOne(){
     var area=document.getElementById("selectBox1").value;
     switch(area){
         case "1":
+            fungiArray=tildenFungi;
+            plantsArray=tildenPlants;
+            birdsArray=tildenBirds;
+            animalsArray=tildenOther;
             $('#tilden').show();
             $('#redwood').hide();
             $('#wildcat').hide();
@@ -32,6 +41,10 @@ function displayMapOne(){
             $('#claremontInfo').hide();
             break;
         case "2":
+            fungiArray=wildcatFungi;
+            plantsArray=wildcatPlants;
+            birdsArray=wildcatBirds;
+            animalsArray=wildcatOther;
             $('#tilden').hide();
             $('#redwood').show();
             $('#wildcat').hide();
@@ -42,6 +55,10 @@ function displayMapOne(){
             $('#claremontInfo').hide();
             break;
         case "3":
+            fungiArray=redwoodFungi;
+            plantsArray=redwoodPlants;
+            birdsArray=redwoodBirds;
+            animalsArray=redwoodOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').show();
@@ -52,6 +69,10 @@ function displayMapOne(){
             $('#claremontInfo').hide();
             break;
         case "4":
+            fungiArray=claremontFungi;
+            plantsArray=claremontPlants;
+            birdsArray=claremontBirds;
+            animalsArray=claremontOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').hide();
@@ -67,6 +88,10 @@ function displayMapTwo(){
     var area=document.getElementById("selectBox2").value;
     switch(area){
         case "1":
+            fungiArray=tildenFungi;
+            plantsArray=tildenPlants;
+            birdsArray=tildenBirds;
+            animalsArray=tildenOther;
             $('#tilden').show();
             $('#redwood').hide();
             $('#wildcat').hide();
@@ -77,6 +102,10 @@ function displayMapTwo(){
             $('#claremontInfo').hide();
             break;
         case "2":
+            fungiArray=wildcatFungi;
+            plantsArray=wildcatPlants;
+            birdsArray=wildcatBirds;
+            animalsArray=wildcatOther;
             $('#tilden').hide();
             $('#redwood').show();
             $('#wildcat').hide();
@@ -87,6 +116,10 @@ function displayMapTwo(){
             $('#claremontInfo').hide();
             break;
         case "3":
+            fungiArray=redwoodFungi;
+            plantsArray=redwoodPlants;
+            birdsArray=redwoodBirds;
+            animalsArray=redwoodOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').show();
@@ -97,6 +130,10 @@ function displayMapTwo(){
             $('#claremontInfo').hide();
             break;
         case "4":
+            fungiArray=claremontFungi;
+            plantsArray=claremontPlants;
+            birdsArray=claremontBirds;
+            animalsArray=claremontOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').hide();
@@ -109,15 +146,15 @@ function displayMapTwo(){
     }
 }
 
-var tableHeader = ("<tr> <th width='100px'>Kingdom</th> <th width='100px'>Phylum</th> <th width='100px'>Class</th> <th width='100px'>Order</th> <th width='100px'>Family</th><th width='100px'>Genus</th> <th width='100px'>Species</th> <th width='100px'>Common name</th> </tr>");
+var tableHeader=("<tr><th width='100px'>Kingdom</th><th width='100px'>Phylum</th><th width='100px'>Class</th><th width='100px'>Order</th><th width='100px'>Family</th><th width='100px'>Genus</th><th width='100px'>Species</th><th width='100px'>Common name</th></tr>");
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
-    for(i=0; i<tildenFungi.length; i++){
-        var row=('<tr class="data">'+makeCell(tildenFungi[i].kingdom, tildenFungi[i].phylum, tildenFungi[i].class, tildenFungi[i].order, tildenFungi[i].family, tildenFungi[i].genus, tildenFungi[i].taxon_name, tildenFungi[i].taxon_common_name) + '</tr>');
+    for(i=0; i<fungiArray.length; i++){
+        var row=('<tr class="data">'+makeCell(fungiArray[i].kingdom, fungiArray[i].phylum, fungiArray[i].class, fungiArray[i].order, fungiArray[i].family, fungiArray[i].genus, fungiArray[i].taxon_name, fungiArray[i].taxon_common_name) + '</tr>');
         $table.append(row);
     }
 }
@@ -126,8 +163,8 @@ function plants(){
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
-    for(i=0; i<tildenPlants.length; i++){
-        var row=('<tr class="data">'+makeCell(tildenPlants[i].kingdom, tildenPlants[i].phylum, tildenPlants[i].class, tildenPlants[i].order, tildenPlants[i].family, tildenPlants[i].genus, tildenPlants[i].taxon_name, tildenPlants[i].taxon_common_name) + '</tr>');
+    for(i=0; i<plantsArray.length; i++){
+        var row=('<tr class="data">'+makeCell(plantsArray[i].kingdom, plantsArray[i].phylum, plantsArray[i].class, plantsArray[i].order, plantsArray[i].family, plantsArray[i].genus, plantsArray[i].taxon_name, plantsArray[i].taxon_common_name) + '</tr>');
         $table.append(row);
     }
 }
@@ -136,8 +173,8 @@ function birds(){
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
-    for(i=0; i<tildenBirds.length; i++){
-        var row=('<tr class="data">'+makeCell(tildenBirds[i].kingdom, tildenBirds[i].phylum, tildenBirds[i].class, tildenBirds[i].order, tildenBirds[i].family, tildenBirds[i].genus, tildenBirds[i].taxon_name, tildenBirds[i].taxon_common_name) + '</tr>');
+    for(i=0; i<birdsArray.length; i++){
+        var row=('<tr class="data">'+makeCell(birdsArray[i].kingdom, birdsArray[i].phylum, birdsArray[i].class, birdsArray[i].order, birdsArray[i].family, birdsArray[i].genus, birdsArray[i].taxon_name, birdsArray[i].taxon_common_name) + '</tr>');
         $table.append(row);
     }
 }
@@ -146,8 +183,8 @@ function animals(){
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
-    for(i=0; i<tildenOther.length; i++){
-        var row=('<tr class="data">'+makeCell(tildenOther[i].kingdom, tildenOther[i].phylum, tildenOther[i].class, tildenOther[i].order, tildenOther[i].family, tildenOther[i].genus, tildenOther[i].taxon_name, tildenOther[i].taxon_common_name) + '</tr>');
+    for(i=0; i<animalsArray.length; i++){
+        var row=('<tr class="data">'+makeCell(animalsArray[i].kingdom, animalsArray[i].phylum, animalsArray[i].class, animalsArray[i].order, animalsArray[i].family, animalsArray[i].genus, animalsArray[i].taxon_name, animalsArray[i].taxon_common_name) + '</tr>');
         $table.append(row);
     }
 }
