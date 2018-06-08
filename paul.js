@@ -1,3 +1,14 @@
+$(window).load(function () {
+    $(".trigger_popup_fricc").click(function(){
+        $('.hover_bkgr_fricc').show();
+    });
+    $('.hover_bkgr_fricc').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+    $('.popupCloseButton').click(function(){
+        $('.hover_bkgr_fricc').hide();
+    });
+});
 $(document).ready(function(){
     $('#tilden').html("<img width='400' height='400' src='img/Tilden%20Park.png'>");
     $('#redwood').html("<img width='400' height='400' src='img/Redwood%20Park.png'>");
