@@ -41,10 +41,10 @@ function displayMapOne(){
             $('#claremontInfo').hide();
             break;
         case "2":
-            fungiArray=wildcatFungi;
-            plantsArray=wildcatPlants;
-            birdsArray=wildcatBirds;
-            animalsArray=wildcatOther;
+            fungiArray=redwoodFungi;
+            plantsArray=redwoodPlants;
+            birdsArray=redwoodBirds;
+            animalsArray=redwoodOther;
             $('#tilden').hide();
             $('#redwood').show();
             $('#wildcat').hide();
@@ -55,10 +55,10 @@ function displayMapOne(){
             $('#claremontInfo').hide();
             break;
         case "3":
-            fungiArray=redwoodFungi;
-            plantsArray=redwoodPlants;
-            birdsArray=redwoodBirds;
-            animalsArray=redwoodOther;
+            fungiArray=wildcatFungi;
+            plantsArray=wildcatPlants;
+            birdsArray=wildcatBirds;
+            animalsArray=wildcatOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').show();
@@ -102,10 +102,10 @@ function displayMapTwo(){
             $('#claremontInfo').hide();
             break;
         case "2":
-            fungiArray=wildcatFungi;
-            plantsArray=wildcatPlants;
-            birdsArray=wildcatBirds;
-            animalsArray=wildcatOther;
+            fungiArray=redwoodFungi;
+            plantsArray=redwoodPlants;
+            birdsArray=redwoodBirds;
+            animalsArray=redwoodOther;
             $('#tilden').hide();
             $('#redwood').show();
             $('#wildcat').hide();
@@ -116,10 +116,10 @@ function displayMapTwo(){
             $('#claremontInfo').hide();
             break;
         case "3":
-            fungiArray=redwoodFungi;
-            plantsArray=redwoodPlants;
-            birdsArray=redwoodBirds;
-            animalsArray=redwoodOther;
+            fungiArray=wildcatFungi;
+            plantsArray=wildcatPlants;
+            birdsArray=wildcatBirds;
+            animalsArray=wildcatOther;
             $('#tilden').hide();
             $('#redwood').hide();
             $('#wildcat').show();
