@@ -1,5 +1,7 @@
 #page1{
     background: lightgreen;
+    background-color: lightgreen;
+
 }
 #page2{
     background: lightgreen;
@@ -136,6 +138,15 @@ th{
     color: gold;
 }
 
+/*The image*/
+#hills{
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    width: 650px;
+    height: 323px;
+}
+/*The modal box ("About Us")*/
 .hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
     font-family: Serif;
