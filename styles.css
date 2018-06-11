@@ -146,6 +146,22 @@ th{
     width: 650px;
     height: 323px;
 }
+
+#hillmountains{
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    width: 650px;
+    height: 323px;
+}
+
+#mountains{
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    width: 650px;
+    height: 323px;
+}
 /*The modal box ("About Us")*/
 .hover_bkgr_fricc{
     background:rgba(0,0,0,.4);
