@@ -147,24 +147,24 @@ th{
 #hills{
     position: absolute;
     top: 380px;
-    left: 650px;
-    width: 650px;
+    left: 670px;
+    width: 630px;
     height: 323px;
 }
 
-#hillmountains{
+#greenleaf{
     position: absolute;
     top: 380px;
-    left: 650px;
-    width: 650px;
-    height: 323px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
 }
 
 #mountains{
     position: absolute;
     top: 380px;
-    left: 650px;
-    width: 650px;
+    left: 670px;
+    width: 630px;
     height: 323px;
 }
 /*The modal box ("About Us")*/
