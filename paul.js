@@ -26,6 +26,10 @@ $(document).ready(function(){
     $('#plantsPlaceholder').hide();
     $('#birdsPlaceholder').hide();
     $('#animalsPlaceholder').hide();
+    $('#fungiProtect').hide();
+    $('#plantsProtect').hide();
+    $('#birdsProtect').hide();
+    $('#animalsProtect').hide();
 
     fungiArray=[];
     plantsArray=[];
@@ -161,6 +165,10 @@ var tableHeader=("<tr><th width='100px'>Kingdom</th><th width='100px'>Phylum</th
 
 function fungi(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiProtect').show();
+    $('#plantsProtect').hide();
+    $('#birdsProtect').hide();
+    $('#animalsProtect').hide();
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
@@ -171,6 +179,10 @@ function fungi(){
 }
 function plants(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiProtect').hide();
+    $('#plantsProtect').show();
+    $('#birdsProtect').hide();
+    $('#animalsProtect').hide();
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
@@ -181,6 +193,10 @@ function plants(){
 }
 function birds(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiProtect').hide();
+    $('#plantsProtect').hide();
+    $('#birdsProtect').show();
+    $('#animalsProtect').hide();
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
@@ -191,6 +207,10 @@ function birds(){
 }
 function animals(){
     $("body").pagecontainer("change", "#page3", {});
+    $('#fungiProtect').hide();
+    $('#plantsProtect').hide();
+    $('#birdsProtect').hide();
+    $('#animalsProtect').show();
     var $table=$('#displayTable');
     $table.empty();
     $table.append(tableHeader);
@@ -202,4 +222,8 @@ function animals(){
 
 function makeCell(kingdom, phylum, sclass, order,family, genus, species, common){
     return '<td>'+kingdom+'</td><td>'+phylum+'</td><td>'+sclass+'</td><td>'+order+'</td><td>'+family+'</td>'+'</td><td>'+genus+'</td>'+'</td><td>'+species+'</td>'+'</td><td>'+common+'</td>'
+}
+
+function protect(){
+    $("body").pagecontainer("change", "#page4", {});
 }

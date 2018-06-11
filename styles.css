@@ -1,7 +1,5 @@
 #page1{
     background: lightgreen;
-    background-color: lightgreen;
-
 }
 #page2{
     background: lightgreen;
@@ -9,8 +7,9 @@
 #page3{
      background: lightgreen;
 }
-
-
+#page4{
+    background: lightgreen;
+}
 
 #pageHeader1{
     font-size: 30pt;
@@ -25,6 +24,12 @@
     color: darkblue;
 }
 #pageHeader3{
+    font-size: 30pt;
+    font-family: "Bauhaus 93", monospace, bold;
+    background: forestgreen;
+    color: darkblue;
+}
+#pageHeader4{
     font-size: 30pt;
     font-family: "Bauhaus 93", monospace, bold;
     background: forestgreen;
@@ -227,3 +232,20 @@ th{
     font-weight: bold;
 }
 /* Popup box BEGIN */
+
+#fungiProtect{
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
+}
+#plantsProtect{
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
+}
+#birdsProtect{
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
+}
+#animalsProtect{
+    font-size: 17pt;
+    font-family: "Times New Roman", monospace;
+}
