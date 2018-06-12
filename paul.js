@@ -8,6 +8,16 @@ $(window).load(function () {
     $('.popupCloseButton').click(function(){
         $('.hover_bkgr_fricc').hide();
     });
+    $(".trigger_popup_frecc").click(function(){
+        $('.hover_bkgr_frecc').show();
+    });
+    $('.hover_bkgr_frecc').click(function(){
+        $('.hover_bkgr_frecc').hide();
+    });
+    $('.popupClosesButton').click(function(){
+        $('.hover_bkgr_frecc').hide();
+    });
+
 });
 $(document).ready(function(){
     $('#tilden').html("<img width='400' height='400' src='img/Tilden%20Park.png'>");
